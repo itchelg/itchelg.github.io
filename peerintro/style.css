@@ -1,0 +1,31 @@
+/*font-family: highgate,sans-serif;
+font-weight: 700;
+font-style: normal;
+font-family: highgate,sans-serif;
+font-weight: 400;
+font-style: normal;
+*/
+body {
+    background: powderblue; 
+    margin: 0;
+}
+h1{
+    font-family: 'Bungee Spice', cursive;
+    font-size: 60px;
+    border: 15px solid blue;
+    margin: 100px;
+}
+h2{
+    font-family: highgate,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+   
+}
+p{
+    border: 4px solid lavender;
+}
+img{
+    width: 100%;
+    border: 5px solid purple;
+}
