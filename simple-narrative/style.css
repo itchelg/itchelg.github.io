@@ -1,6 +1,10 @@
-img{
-width: 100%;
+body {
+    margin:0 ;
+    text-align: center;
 }
-H1{
-    margin: 50px;
+.arrows {
+    width: 15%;
+}
+.fruit {
+    width: 60%;
 }
