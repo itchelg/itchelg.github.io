@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    border: 2px solid red;
+}
+main {
+    border: 2px solid burlywood;
+}
+section {
+    border: 2px solid yellow;
+}
+article {
+    border: 2px solid turquoise;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+article img {
+    width: 100%;
+}
+.gallery article {
+    flex: 25%;
+}
+.featured {
+    display: flex;
+}
+.featured article {
+    flex: 1;
+}
+.featured .featured-article {
+    flex: 2;
+}
+.featured .middle {
+    flex: 400px;
+}
