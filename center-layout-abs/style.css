@@ -1,0 +1,45 @@
+body {
+  background: rgb(158, 148, 175);
+  margin: 0;
+}
+body.two-col-page {
+  background: rgb(28, 3, 67);
+}
+img {
+  width: 100%;
+}
+main {
+  position: relative;
+  padding: 80px;
+  background: rgb(241, 204, 140);
+  width: 20%;
+  margin: auto;
+  margin-top:20%;
+  height: 60vh;
+}
+.blob1 {
+  position: absolute;
+  top: -100px;
+  left: -200px;
+  z-index: 1;
+}
+.blob2 {
+  position: absolute;
+  bottom: -50px;
+  right: -150px;
+  z-index: 2;
+}
+
+main p {
+  z-index: 3;
+  position: relative;
+}
+.two-cols {
+  display: flex;
+}
+.two-cols section {
+  flex: 1;
+}
+.two-cols p {
+  margin-left: -120px;
+}
