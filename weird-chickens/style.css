@@ -1,4 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Sonsie+One&display=swap');
+* {
+  box-sizing: border-box;
+}
+
 body {
-    background-color: black;
-    color: white;
+  background-color: black;
+  background-image: url('images/space.jpeg');
+  background-size: cover;
+  background-repeat: none;
+  color: white;
+  margin: 0;
+  font-family: 'Goldman';
+  font-weight: 700;
+}
+img {
+  width: 100%;
+}
+.homepage h1 {
+  color: goldenrod;
+  font-size: 120px;
+  text-align: center;
+  font-family: 'Sonsie One';
+  white-space: nowrap;
+}
+
+.homepage main {
+  min-height: 100vh;
+  width: 80%;
+  margin: auto;
+}
+.homepage nav {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 90%;
+  margin: auto;
+}
+.homepage nav div {
+  flex: 1;
+  text-align: center;
+}
+.subpage h1 {
+  color: teal;
+  font-size: 68px;
+  text-align: center;
+  font-family: 'Sonsie One';
+  white-space: nowrap;
+}
+.subpage nav {
+  display: flex;
+  justify-content: space-between;
+}
+.subpage main {
+  display: flex;
+}
+.subpage main .left {
+  flex: 1;
+}
+.subpage main div {
+  flex: 1;
+}
+.subpage .right {
+  padding: 40px;
+}
+.button {
+  display: inline-block;
+  background-color: teal;
+  color: white;
+  font-size: 32px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.gallery {
+  display: flex;
+}
+.gallery article {
+  flex: 1;
+  padding: 10px;
 }
