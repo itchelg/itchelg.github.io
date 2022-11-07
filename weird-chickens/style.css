@@ -21,7 +21,7 @@ img {
   font-size: 120px;
   text-align: center;
   font-family: 'Sonsie One';
-  white-space: nowrap;
+  white-space: nowrap
 }
 
 .homepage main {
@@ -43,8 +43,8 @@ img {
   text-align: center;
 }
 .subpage h1 {
-  color: teal;
-  font-size: 68px;
+  color: rgb(63, 224, 224);
+  font-size: 75px;
   text-align: center;
   font-family: 'Sonsie One';
   white-space: nowrap;
@@ -67,7 +67,7 @@ img {
 }
 .button {
   display: inline-block;
-  background-color: teal;
+  background-color: rgb(66, 187, 187);
   color: white;
   font-size: 32px;
   padding: 12px 20px;
@@ -82,4 +82,7 @@ img {
 .gallery article {
   flex: 1;
   padding: 10px;
+}
+.gallery h2 {
+    color: coral;
 }
