@@ -12,6 +12,7 @@ body {
   margin: 0;
   font-family: 'Goldman';
   font-weight: 700;
+  font-size: large;
 }
 img {
   width: 100%;
@@ -85,4 +86,11 @@ img {
 }
 .gallery h2 {
     color: coral;
+}
+.homepage p {
+    flex: 1;
+    padding: auto;
+    margin-top:80px;
+    margin-left:110px;
+    margin-right: 110px;
 }
