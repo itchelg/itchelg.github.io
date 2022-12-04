@@ -94,3 +94,27 @@ img {
     margin-left:110px;
     margin-right: 110px;
 }
+#chicken {
+animation: chicken 2s ease-in-out infinite alternate;
+}
+#Planet {
+  animation: planet 3s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+@keyframes chicken {
+  from {
+    transform: rotateX(0deg);
+}
+to {
+    transform: rotateX(20deg);
+}
+}
+@keyframes planet {
+  from {
+transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
